@@ -4,4 +4,4 @@ Flask es un micro-framework escrito en Python que facilita la creación de aplic
 
 #### Instrucctiones de uso:
 
-Run "install_requirements.bat" then run "run.bat.
+Run "install_requirements.bat" then run "run.bat. Utilizar la página con la dirección que aparece en la terminal
