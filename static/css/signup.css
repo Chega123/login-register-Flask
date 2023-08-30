@@ -1,0 +1,45 @@
+html, body{
+	height:100vh;
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+
+.root{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100%;
+}
+
+.container{
+	display:flex;
+	align-items:center;
+	align-items:center;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	padding:2rem;
+}
+
+form{
+	display:grid;
+	grid-template-columns:auto auto;
+	grid-template-rows:auto auto auto auto auto auto auto;
+	row-gap:2rem;
+	column-gap:2rem;
+	font-family:"Calibri";
+}
+
+.button-register, .back-ref{
+	grid-column-start:1;
+	grid-column-end:3;
+	width:100%;
+}
+input{
+	padding:.2rem;
+}
+
+.back-ref{
+	text-align:center;
+}

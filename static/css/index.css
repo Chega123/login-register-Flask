@@ -1,0 +1,40 @@
+html, body{
+	height:100vh;
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+
+.root{
+	display:flex;
+	width:100%;
+	height:100%;
+	align-items:center;
+	justify-content:center;
+}
+
+.container{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	font-family:Calibri;
+}
+
+.container div{
+	padding:2rem;
+}
+
+form{
+	display:grid;
+	grid-template-columns:auto;
+	grid-template-rows:auto auto auto;
+	padding:1rem;
+	row-gap:2rem;
+}
+
+input{
+	padding:.4rem;
+}
