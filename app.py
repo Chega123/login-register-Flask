@@ -72,8 +72,6 @@ def login():
         email = request.get_json().get('email')
         password = request.get_json().get('password')
         
-        print(email)  # Imprime el correo electrónico
-
         user = User.query.filter_by(email=email).first()
 
         if user and user.check_password(password):
